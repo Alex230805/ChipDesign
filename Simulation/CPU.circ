@@ -620,7 +620,7 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="downloadFrequency" val="1000000.0"/>
-    <a name="simulationFrequency" val="128000.0"/>
+    <a name="simulationFrequency" val="1000.0"/>
     <comp lib="0" loc="(1120,1620)" name="Ground"/>
     <comp lib="0" loc="(1180,1220)" name="Splitter">
       <a name="facing" val="south"/>
@@ -778,19 +778,12 @@
       <a name="addrWidth" val="16"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 16 8
-32768*0 18 d8 b8 58 a2 0 a0
-b a9 0 bd 4a 80 95 50
-e8 88 c0 0 d0 f5 a9 50
-85 0 a2 b a0 0 b1 0
-8d 8 60 c8 ca e0 0 d0
-f5 bd 56 80 95 50 e8 88
-c0 0 d0 f5 a9 50 85 0
-a2 b a0 0 b1 0 8d 8
-60 c8 ca e0 0 d0 f5 ea
-4c 46 80 48 65 6c 6c 6f
-20 57 6f 72 6c 64 0 43
-69 61 6f 20 4d 6f 6e 64
-6f 32669*0 80
+36864*0 a9 ea 85 0 a9 ea 85
+1 a9 ea 85 2 20 12 90
+4c 26 90 18 a5 0 69 a
+85 10 a5 1 69 0 85 11
+a5 2 69 0 85 12 60 ea
+4c 26 90 28627*0 90
 </a>
     </comp>
     <comp lib="4" loc="(810,740)" name="RAM">
@@ -998,7 +991,7 @@ a2 b a0 0 b1 0 8d 8
     <wire from="(1960,1530)" to="(2060,1530)"/>
     <wire from="(1970,1320)" to="(1970,1540)"/>
     <wire from="(1970,1540)" to="(2070,1540)"/>
-    <wire from="(2020,1410)" to="(2020,1500)"/>
+    <wire from="(2020,1380)" to="(2020,1500)"/>
     <wire from="(2030,1380)" to="(2030,1510)"/>
     <wire from="(2050,1380)" to="(2050,1520)"/>
     <wire from="(2060,1380)" to="(2060,1530)"/>
